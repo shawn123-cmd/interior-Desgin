@@ -1,0 +1,649 @@
+
+
+
+*{margin: 0; padding: 0; box-sizing: border-box; }
+/* html{
+    scroll-behavior: smooth;
+} */
+a { text-decoration: none;}
+a:hover{text-decoration: none;}
+li {list-style-type: none;}
+
+.header-section{
+    /* width: 100%;
+    height: 500px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+
+/* .header-section{
+ background-color: #1e212a;
+} */
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background:linear-gradient()
+}
+.navbar {
+     background-color: #1e212a;
+}
+
+/* .navbar:hover{
+    background-color: #1e212a;
+} */
+
+.navbar-brand{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 1.5rem;  
+    font-weight: normal;
+}
+
+.nav-item a {
+    color : white !important;
+    transition: 0.2s ease;
+    margin: 0px 10px; 
+    /* font-family: 'Otomanopee One', sans-serif;
+    font-weight: lighter; */
+
+}
+
+h2{
+    font-weight: bolder;
+}
+h6{
+    font-weight: bolder;
+}
+
+.icons {
+  color: #fe801c!important;
+  /* padding: 5px 0px !important; */
+}
+
+/* .nav-item a:hover .icons{
+    color: #1e212a !important;   
+} */
+
+.nav-item a:hover{
+    background-color: white;
+    color: #1e212a !important;
+    transition: 0.2s ease;
+}
+
+span{
+    color: #fe801c;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight: normal;
+}
+/* 
+.center-div{
+
+    width: 70%;
+    height: auto;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+     background-image:linear-gradient(rgba(0,33,42,0.3), rgba(0,33,42,0.3)) ,url('./images/living-room-and-dining-room-with-globe-pendants.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+
+/* .header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    position: relative;
+} */
+
+/* h1{
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+    font-size: 3rem;
+}  */
+.About{
+    width: 100%;
+    height: auto;
+    background-color:#1e212a ;
+    color: white;
+}
+
+.About a {
+    color: white;
+}
+
+.about-div{
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+.about-div h2{
+    border: 5px solid orange;
+    height: 200px;
+    width: 200px;
+    padding: 35px;
+    transition: 0.2s ease;  
+    cursor: pointer;
+    font-weight: bolder;
+}
+.about-div h2:hover{
+    background-color: white;
+    color:#1e212a; 
+    transition: 0.2s ease;  
+}
+
+.btn{
+    padding: 2px 2px !important;
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+    background: transparent;
+    color: white;
+    margin: 15px 0px !important;
+    /* text-decoration: underline; */
+}
+
+button:hover{
+    background-color: white ;
+    color:#1e212a ;
+}
+
+/* img{
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.designer{
+    width: 100%;
+    height: auto;
+}
+
+.designer p{
+    width: 70%;
+}
+.designer-div{
+    margin: 30px 0px !important;
+    padding: 20px !important;  
+}
+
+.designer-div h2{
+    border: 5px solid #fe801c;
+    height: 200px;
+    width: 200px;
+    padding: 35px; 
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-weight: bolder;
+}
+
+.designer-div h2:hover{
+    background-color: #1e212a;
+    color:white; 
+    transition: 0.2s ease;  
+}
+
+.designer-div .btn{
+    background-color: white ;
+    color:#1e212a ;
+}
+
+.designer-div button:hover{
+    background-color:#1e212a;
+    color: white;
+}
+/* .designer-div img{
+  width: 400px;
+  height: 200px;
+} */
+
+.designer a {
+    color: #1e212a;
+}
+
+.room{
+    filter: grayscale(5);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.room:hover{
+    filter: none;
+    transition: 0.1s ease;
+}
+
+/* .projects p {
+    border: 5px solid #fe801c;
+
+} */
+
+.project{
+    border: 5px solid #fe801c;
+    padding: 10px;
+}
+
+.project .btn {
+    background: #1e212a;
+    color: white;
+    padding: 5px 25px !important;
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+}
+
+.project button:hover{
+    background: #0a0b0f;
+}
+
+.testimonial{
+    margin-top: 20px;
+    background-color:#1e212a;
+}
+
+.adds{
+    border: 5px solid #fe801c;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+}
+.author {
+  text-decoration: underline;
+  text-decoration-color:  #fe801c ;
+  text-decoration-style: solid 5px;
+  text-underline-offset: 20px;
+}
+
+.second-last{
+ width: 100%;
+ height: 200px;
+ background-color: #fe801c;
+ background-image: url(secondlast2.jpg);
+ background-repeat: no-repeat;
+ background-size:cover ;
+ position: relative;
+}
+
+.footer .btn {
+    background: #1e212a;
+    color: white;
+    padding: 5px 25px !important;
+    margin: 0 !important;
+    font-size: 1rem !important;
+}
+
+.footer button:hover{
+    background: #0a0b0f;
+}
+
+.follow{
+    border: 5px solid #fe801c;  
+}
+
+.footer{
+    padding: 10px;
+}
+/* 
+.carousel-item {
+    height: 800px;
+} 
+ 
+.carousel-img{
+  top: 0;
+  left: 0;
+  position:absolute;
+  z-index: -1;
+  height: 800px;
+} 
+ */
+
+ .carousel-item h5{
+    font-size: 3rem;
+    /* color: #1e212a; */
+    transform: translateY(-150px);
+    font-family: 'Zen Tokyo Zoo', cursive;
+ }
+
+ .contactus{
+     width: 100%;
+     height: 100vh;
+     /* background-image: url(./images/contactustry.jpg); */
+     background-image: url(contactus.jpg);
+     /* background-color: #1e212a; */
+     background-repeat: no-repeat;
+     background-size:cover;
+     /* position: relative; */
+ }
+ .contactus h1 {
+     transform: translateY(60px);
+ }
+ .contactus  p{
+    transform: translateY(60px);
+}
+  .contactus button{
+   background-color: #fe801c;
+   height: 40px;
+  
+  }
+
+  .contactus .btn{
+    font-size: 1.2rem !important;
+  }
+
+  .form-control{
+      background: transparent;
+      /* opacity: .6 !important; */
+      border-radius: 0px !important;
+      padding: 10px  20px !important;
+      border: 1px solid rgb(124, 117, 117) !important;
+  }
+
+   form{
+   margin-top: 100px !important;
+  }
+
+  .form-control::placeholder{
+    color:#1e212a;
+    text-transform: capitalize;
+    font-weight: lighter !important;
+  }
+
+  input{
+      font-weight: bolder !important;
+      
+  }
+
+  .aboutimg{
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .aboutimg:hover{
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        transform: translateY(-20px);
+        transition: 0.3s;
+  }
+
+  .aboutpage h1{
+    text-decoration: underline;
+    text-decoration-color:  #fe801c ;
+    text-underline-offset: 20px;
+
+  }
+
+  .services {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.second {
+     background: white;
+     border: medium none;
+     padding: 30px !important;
+     margin-top: 100px ;
+     border-radius: 3px;
+     transition: 0.3s;
+     cursor: pointer;
+}
+
+.second i {
+    color: #fe801c;
+}
+
+h3{
+    font-size: 1.8rem;
+    margin: 50px 0 15px 0;
+    /* font-weight: bold; */
+    line-height: 1.1;
+    word-spacing: 4px;
+    /* font-family: 'Great Vibes', cursive; */
+    /* color: rgb(187, 151, 104) !important; */
+}
+
+.services p{
+    /* font-weight: 600; */
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    transform: translateY(30px);
+}
+
+.second:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+.service-button a {
+    border-radius: 2px;
+    padding: 12px 40px;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #97a0a5;
+    transition: 0.2s;
+}
+.service-button a:hover{
+    background-color:#717d83 ;
+    transition: 0.2s;
+}
+
+
+
+  /*********************************MEDIA QURIES START*******************/
+
+ @media (max-width: 1199px){
+
+
+    .designer p{
+        width: 80%;
+        transform: translateY(-40px) !important;
+        -webkit-transform: translateY(-40px) !important;
+        -ms-transform: translateY(-40px) !important;
+    }
+
+    .project p{
+        transform: translateX(0px) !important; 
+        width: 80%;
+        height: 150px;
+        overflow: scroll;
+       }
+ }
+
+
+ @media (max-width: 991px) {
+
+
+    .About{
+        padding: 20px;
+        height: auto;
+    } 
+
+    .about-div{
+        margin: 15px 0px;
+        padding: 10px;
+    }
+
+    .about-div p {
+      margin: 0px 0px 15px 0px;
+    }
+    
+    .about-div h2{
+        transform: translateY(150px) !important;
+        -ms-transform: translateY(150px) !important;
+        -webkit-transform: translateX(-80px) !important;
+    
+    }
+
+
+    .navbar-nav{
+      margin-top: 20px;
+    }
+
+    .nav-item{
+        text-align: center;
+    }
+
+    .navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .designer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .designer p{
+        width: 70%;
+    }
+    .designer-div{
+        margin: 30px 0px !important;
+        padding: 15px !important;  
+    }
+    
+     .designer-div h2{
+        border: 5px solid #fe801c;
+        height: 200px;
+        width: 200px;
+        padding: 35px; 
+        cursor: pointer;
+        transition: 0.2s ease;
+        transform: translate(-5px, -30px) !important;
+        -ms-transform: translate(-5px, -30px) !important;
+        -webkit-transform: translate(-5px, -30px) !important;
+       
+    
+    }
+    .designer-div button{
+
+        margin-top: -30px !important;
+        background-color: white ;
+        color:#1e212a ;
+    }
+
+    .designer p{
+        width: 100%;
+        transform: translateY(-40px) !important;
+        -webkit-transform: translateY(-40px) !important;
+        -ms-transform: translateY(-40px) !important;
+    }
+
+    .designer-div .btn{
+        background-color: white ;
+        color:#1e212a ;
+    }
+
+    
+.project{
+    border: 5px solid #fe801c;
+}
+
+
+.project p{
+ transform: translateX(0px) !important; 
+ width: 80%;
+ height: 100px;
+ overflow: scroll;
+}
+
+/* .margin{
+    margin-top: 5px;
+} */
+
+
+    
+ } 
+
+  @media (max-width: 700px){
+   
+   
+    .carousel-item h5{
+        transform: translateY(-80px);
+     } 
+
+
+     .margin{
+        margin-top: 5px;
+    }
+
+    .navbar-brand{
+        font-size: 1.2rem;  
+    }
+  
+
+}
+
+  
+
+ 
+
+
+
+ 
+  @media (max-width: 765px){
+    .about-div h2{
+        transform: translateY(20px) !important;
+        -ms-transform: translateY(120px) !important;
+        -webkit-transform: translateX(-100) !important;
+    
+    }
+
+    .carousel-item h5{
+        transform: translateY(-80px);
+     }
+
+     .margin{
+         margin-top: 5px;
+     }
+     .aboutpage h1{ 
+        text-underline-offset: 10px;
+      }
+    
+ }
+
+ @media (max-width: 360px){
+  
+    .contactus h1{
+        font-size: 1.7rem;
+        transform: translateY(50px);
+    }
+
+    .contactus p{
+        font-size: 0.8rem !important;
+        transform: translateY(50px);
+    }
+    form{
+        margin-top: 60px !important;
+       }
+
+       .form-control::placeholder{
+       font-size: 0.8rem;
+      }
+
+      .form-control{
+        padding: 5px  5px !important;
+    }
+
+    .aboutpage h1{ 
+        text-underline-offset: 10px;
+      }
+    
+     
+ } 
+
+
+
